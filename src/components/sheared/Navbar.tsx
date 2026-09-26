@@ -26,7 +26,7 @@ const Navbar = () => {
   const isMyPlanActive = pathname === "/my-plan";
 
   return (
-    <nav className="w-full border-b border-[#202125]   bg-transparent backdrop-blur-md  text-white sticky top-0 left-0 z-10 container mx-auto px-6">
+    <nav className="w-full border-b border-[#202125]  bg-black  text-white sticky top-0 left-0 z-10 container mx-auto px-6">
       <div className="mx-auto flex h-18 max-w-[1650px] items-center justify-between px-3 sm:px-5 md:px-4 lg:px-8">
         <Link
           href="/"
